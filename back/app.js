@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 
 const port = 3000;
-const route = '/pokemon/:pokemonName'; //Yo inclui un "/" antes de pokemon que en el video no comenta. ¿Sera necesario? Creo que si. TENIA YO RAZON! Je
+const route = '/pokemon/:pokemonName'; //Yo inclui un "/" antes de pokemon que en el video no comenta. ¿Sera necesario? --> Lo era.
 
 app.use(cors());
 
