@@ -12,8 +12,8 @@ function getPokemonInfo() {
             infoDOM.innerHTML = `
                 <h2>Pokemón: ${name}</h2>
                 <img src='${front_default}' alt='${name} sprite' />
-                <p>Altura: ${height}</p>
-                <p>Peso: ${weight/10} m</p>
+                <p>Altura: ${height*10} cm</p>
+                <p>Peso: ${weight/10} kg</p>
             `;
         })
         .catch(error => infoDOM.innerHTML = `<p>Imposible acceder al pokemon: ${error}</p>`);
